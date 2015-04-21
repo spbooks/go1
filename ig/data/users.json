@@ -1,0 +1,16 @@
+{
+  "Users": {
+    "usr_Mp8ry7c6D4dUuPCd": {
+      "ID": "usr_Mp8ry7c6D4dUuPCd",
+      "Email": "mal2@mal.co.nz",
+      "HashedPassword": "$2a$10$YC/GQMgxWiomR2Yi1kgZvu3hK7AMjfev.47Xd95r1UVGVFKpF2NX6",
+      "Username": "NotMal"
+    },
+    "usr_UvfFNCUI2pp3fLIh": {
+      "ID": "usr_UvfFNCUI2pp3fLIh",
+      "Email": "mal@mal.co.nz",
+      "HashedPassword": "$2a$10$hd49NkCFrkoI2sjd9o28S.lvzTG764dXZQYFRe4zcsOozRvfih5C.",
+      "Username": "mal"
+    }
+  }
+}

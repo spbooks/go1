@@ -1,0 +1,28 @@
+{
+  "Users": {
+    "usr_CydtIC9KUZG0Cbjx": {
+      "Id": "usr_CydtIC9KUZG0Cbjx",
+      "Email": "jlkj@mal.casd",
+      "HashedPassword": "$2a$10$MVAsq71bmF0Y.ABBBN/3xeOG5n63p9cReCvH7OfnewggA7.IbgRU.",
+      "Username": "adasd"
+    },
+    "usr_JuCsNTDebaViMFmK": {
+      "Id": "usr_JuCsNTDebaViMFmK",
+      "Email": "asdmal@mal.co.nz",
+      "HashedPassword": "$2a$10$FNC8CfkCBvE93nfCm75X8earS2XCuiw8wRmmFD2N97ZFE.H.fXj6C",
+      "Username": "mal28"
+    },
+    "usr_tP6GDn9DtDJ00QEW": {
+      "Id": "usr_tP6GDn9DtDJ00QEW",
+      "Email": "asda@mal.co.nz",
+      "HashedPassword": "$2a$10$Agylvls8lm2N.b7.p1wnHOx/rZNhNVwe6eEcyXszbFV4qmIAeX.2q",
+      "Username": "mal213"
+    },
+    "usr_xddHcUI0OuRlrREv": {
+      "Id": "usr_xddHcUI0OuRlrREv",
+      "Email": "mal@mal.co.nz",
+      "HashedPassword": "$2a$10$1y2ojzbG8lCDR6rkydh4l.Y0cBngvXOlpK7HGnA3X4E9AP3dNmVpy",
+      "Username": "mal"
+    }
+  }
+}

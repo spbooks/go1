@@ -1,0 +1,19 @@
+{
+  "Sessions": {
+    "sess_5JZPid0vn0m72Q0H3Ghh": {
+      "Id": "sess_5JZPid0vn0m72Q0H3Ghh",
+      "UserId": "usr_ZRtM7bsqwge7ooxU",
+      "Expiry": "2014-11-12T21:42:37.07205867+13:00"
+    },
+    "sess_GBEX1Qx0NXmSgXL1nPDg": {
+      "Id": "sess_GBEX1Qx0NXmSgXL1nPDg",
+      "UserId": "usr_CydtIC9KUZG0Cbjx",
+      "Expiry": "2014-10-16T21:52:36.144147885+13:00"
+    },
+    "sess_rpCFwRBPmdfiP0NJNm4X": {
+      "Id": "sess_rpCFwRBPmdfiP0NJNm4X",
+      "UserId": "",
+      "Expiry": "2014-11-12T21:42:33.717113688+13:00"
+    }
+  }
+}

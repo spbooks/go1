@@ -1,0 +1,27 @@
+{{define "images/new"}}
+<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+		<h1>Add An Image</h1>
+		{{if .Error}}
+		<p class="text-danger">
+			{{.Error}}
+		</p>
+		{{end}}
+		<form action="/images/new" method="POST" enctype="multipart/form-data">
+			<div class="form-group">
+				<label for="imageUrl">Upload from URL</label>
+				<input type="text" name="url" value="{{.ImageURL}}" id="imageUrl" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="imageUpload">Upload from file</label>
+				<input type="file" name="file" id="imageUpload" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="description">Description</label>
+				<textarea name="description" id="description" class="form-control">{{.Image.Description}}</textarea>
+			</div>
+			<input type="submit" value="Add" class="btn btn-primary">
+		</form>
+	</div>
+</div>
+{{end}}

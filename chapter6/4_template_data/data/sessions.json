@@ -1,0 +1,14 @@
+{
+  "Sessions": {
+    "sess_GBEX1Qx0NXmSgXL1nPDg": {
+      "Id": "sess_GBEX1Qx0NXmSgXL1nPDg",
+      "UserId": "usr_CydtIC9KUZG0Cbjx",
+      "Expiry": "2014-10-16T21:52:36.144147885+13:00"
+    },
+    "sess_UZA8Sihz7VQ7isxoedFE": {
+      "Id": "sess_UZA8Sihz7VQ7isxoedFE",
+      "UserId": "usr_Bw5ctWmCcko8fzIS",
+      "Expiry": "2014-11-12T10:51:49.412724459+13:00"
+    }
+  }
+}

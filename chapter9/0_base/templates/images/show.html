@@ -1,0 +1,18 @@
+{{define "images/show"}}
+<div class="row">
+	<div class="col-md-8 col-xd-12">
+		<img src="{{.Image.StaticPreviewRoute}}" class="img-rounded" style="max-width: 100%" alt="{{.Image.Description}}">
+	</div>
+	<div class="col-md-4 col-xs-12">
+		<div class="media">
+			<a href="{{.User.ImagesRoute}}" class="pull-left">
+				<img src="{{.User.AvatarURL}}" alt="{{.User.Username}}">
+			</a>
+			<div class="media-body">
+				<h3 class="media-heading">{{.User.Username}}</h3>
+				<p>{{.Image.Description}}</p>
+			</div>
+		</div>
+	</div>
+</div>
+{{end}}

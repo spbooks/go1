@@ -1,0 +1,16 @@
+{{define "images/index"}}
+	<div class="row">
+	{{if .Images}}
+		{{range .Images}}
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<a href="{{.ShowRoute}}" class="thumbnail">
+					<img src="{{.StaticRoute}}">
+				</a>
+			</div>
+		{{end}}
+	{{else}}
+	<h2>No Images Yet</h2>
+	<a href='/images/new'>Why not upload one?</a>
+	{{end}}
+	</div>
+{{end}}

@@ -16,10 +16,7 @@ func NewUptimeHandler() UptimeHandler {
 }
 
 func (h UptimeHandler) ServeHTTP(w http.ResponseWriter, req *http.Request) {
-	fmt.Fprintf(
-		w,
-		fmt.Sprintf("Current Uptime: %s", time.Since(h.Started)),
-	)
+	fmt.Fprintf(w, "Current Uptime: %s", time.Since(h.Started))
 }
 
 func main() {

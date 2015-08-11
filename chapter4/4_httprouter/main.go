@@ -25,9 +25,15 @@ func main() {
 	http.ListenAndServe(":3000", middleware)
 }
 
+type NotFound struct{}
+
+func (n *NotFound) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+}
+
 // Creates a new router
 func NewRouter() *httprouter.Router {
 	router := httprouter.New()
-	router.NotFound = func(http.ResponseWriter, *http.Request) {}
+	notFound := new(NotFound)
+	router.NotFound = notFound
 	return router
 }

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
@@ -19,6 +20,8 @@ func main() {
 	middleware.Add(http.HandlerFunc(AuthenticateRequest))
 	middleware.Add(authenticatedRouter)
 
+	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("assets/"))))
+	fmt.Println("Listening on :3000")
 	http.ListenAndServe(":3000", middleware)
 }
 

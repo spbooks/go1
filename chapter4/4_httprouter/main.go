@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
@@ -19,12 +20,20 @@ func main() {
 	middleware.Add(http.HandlerFunc(AuthenticateRequest))
 	middleware.Add(authenticatedRouter)
 
+	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("assets/"))))
+	fmt.Println("Listening on :3000")
 	http.ListenAndServe(":3000", middleware)
+}
+
+type NotFound struct{}
+
+func (n *NotFound) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 // Creates a new router
 func NewRouter() *httprouter.Router {
 	router := httprouter.New()
-	router.NotFound = func(http.ResponseWriter, *http.Request) {}
+	notFound := new(NotFound)
+	router.NotFound = notFound
 	return router
 }

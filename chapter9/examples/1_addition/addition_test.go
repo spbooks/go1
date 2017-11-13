@@ -12,7 +12,7 @@ func TestOnePlusOne(t *testing.T) {
 
 func TestTwoPlusTwo(t *testing.T) {
 	twoPlusTwo := 2 + 2
-	if twoPlusTwo != 4 {
+	if twoPlusTwo != 5 {
 		t.Error("Expected 2 + 2 to equal 4, but got", twoPlusTwo)
 	}
 }
